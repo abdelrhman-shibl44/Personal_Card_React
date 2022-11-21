@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Container className="container d-flex justify-content-center align-items-center">
-        <div className="row col-lg-3 col-md-5 col-sm-6">
+        <div className="row">
           <Info />
           <About />
           <Interest />

@@ -4,7 +4,7 @@ import { faFacebook, faGithub, faLinkedin, faTwitter } from '@fortawesome/free-b
 
 export const Footer = () => {
     return (
-        <div className='footer p-1'>
+        <div className='footer p-2'>
             <div className='text-center d-flex justify-content-evenly'>
                 <a className='text-secondary fs-3' href='https://www.facebook.com'>
                     <FontAwesomeIcon icon={faFacebook} />
