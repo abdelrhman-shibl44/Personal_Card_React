@@ -11,15 +11,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(90deg, #afa8a8, #afa8a857);
+  /* position: relative; */
 }
 
 .App {
   height: 100vh;
-  background: linear-gradient(90deg, #afa8a8, #afa8a857)
 }
 
 .App .container {
   height: 100%;
+  overflow: scroll;
 }
 
 .App .container .row {
